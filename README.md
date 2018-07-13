@@ -1,0 +1,2 @@
+# WordlistGenerator
+Generatore di wordlist
