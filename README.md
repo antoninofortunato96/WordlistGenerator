@@ -1,4 +1,4 @@
-# WordlistGenerator
+# Wordlist Generator
 Generatore di una  wordlist
 
 # Descrizione 
