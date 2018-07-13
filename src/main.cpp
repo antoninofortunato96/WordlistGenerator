@@ -91,7 +91,7 @@ void start()
    
     if (scelta==2)
     {
-        cout<<"La wordlist.txt verrà ampliata, se il file non esiste verrà creato\n";
+        cout<<"La wordlist.txt verrÃ  ampliata, se il file non esiste verrÃ  creato\n";
 	    cout<<"Inserire il numero di caratteri da cui avviare il generatore (es. 3 = aaa, aab...): ";
 	    cin>> stringlength;
 		
@@ -103,7 +103,7 @@ void start()
     	
     } else {
 		
-       cout<<"\n\nHai inserito un valore errato il programma verrà arrestato\n";
+       cout<<"\n\nHai inserito un valore errato il programma verrÃ  arrestato\n";
 	   system("pause");
 		
 	}
