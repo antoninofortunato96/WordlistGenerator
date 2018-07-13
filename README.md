@@ -6,7 +6,7 @@ Il programma è una console application realizzata per generare una wordlist ido
 l'ambito più frequente è il penetration testing.
 
 # Installazione 
-All'interno di questo repository nel file main.cpp è contenuto il codice sorgente in C++.
+All'interno di questo repository nella cartella src è contenuto il codice sorgente in C++.
 C'è pure una cartella realease all'interno della quale sono presenti gli eseguibili,
 compilati con DEV-C++ in Windows 10.
 
