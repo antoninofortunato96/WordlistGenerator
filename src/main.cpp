@@ -2,8 +2,6 @@
 *                           GNU GENERAL PUBLIC LICENSE                           *
 *                            Version 3, 29 June 2007                             *
 *          Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>  *
-*             Everyone is permitted to copy and distribute verbatim copies       *
-*               of this license document, but changing it is not allowed.        *
 *           author:Antonino Fortunato email: antoninofortunato.pc@gmail.com      *
 *********************************************************************************/
 
@@ -15,8 +13,6 @@ using namespace std;
 
 //DICHIARAZIONE FUNZIONI 
 void scrivi_wl(string stringa);
-
-
 
 
 const char alfabeto[62] = 
@@ -32,12 +28,8 @@ const char alfabeto[62] =
 	'4', '5', '6', '7', '8', '9', 
 };
 
-
-
 void Genera(unsigned int length, string r)
 {
-		
-
 	if(length == 0) 
 	{
 		std::cout << r << "\n"; 
@@ -73,20 +65,16 @@ void start()
 	 if (scelta==1)
 	 { 
 	
-				
-			cout<< "Inserire il numero di caratteri da cui avviare il generatore (es. 3 = aaa, aab...): ";
+	        cout<< "Inserire il numero di caratteri da cui avviare il generatore (es. 3 = aaa, aab...): ";
 	        cin>> stringlength;
-	        
-            ofstream wordlist("\wordlist.txt"); //crea una nuova wordlist    
+	        ofstream wordlist("\wordlist.txt"); //crea una nuova wordlist    
 	        	
-				while(1)
-             	{
-					Genera(stringlength, "");
-					stringlength++;
+	        	while(1)
+                        {
+			  Genera(stringlength, "");
+			  stringlength++;
 	         	}
-	        
-     	
-	  }
+	     }
    
    
     if (scelta==2)
@@ -108,12 +96,10 @@ void start()
 		
 	}
 
-
 }
 
 int main()
 {
-
 	    cerr << "\n\t\t\t Wordlist Generator \n\n"; 
 	    cout<<"Questo programma genera/amplia  una wordlist nella cartella corrente in cui si trova.\nIl file creato/ampliato e' wordlist.txt.\n";
 	    cout<<"Quando si ritiene di aver raggiunto un numero sufficiente di elementi e'\nsufficiente interrompere il programma.\n";
