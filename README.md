@@ -14,6 +14,6 @@ compilati con DEV-C++ in Windows 10.
 E' un applicazione molto semplice, dopo aver compilato il codice sorgente o aver avviato gli eseguibili è abbastanza intuitiva.
 L'app genera un file di testo denominato wordlist.txt nella cartella in cui il programma viene eseguito.
 Bisogna inserire un valore dal quale far partire l'app (es. 4,  aaaa, aaab, aaac.....), il programma prosegue a generare tutte le 
-combinazinioni fin quando non viene interrotto.
+combinazinioni fin quando non viene arrestato.
 
 
