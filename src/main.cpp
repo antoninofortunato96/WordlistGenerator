@@ -33,7 +33,7 @@ void Genera(unsigned int length, string r)
 	if(length == 0) 
 	{
 		std::cout << r << "\n"; 
-	    scrivi_wl(r);
+	        scrivi_wl(r);
 		return;
 	}
 
@@ -83,18 +83,18 @@ void start()
 	    cout<<"Inserire il numero di caratteri da cui avviare il generatore (es. 3 = aaa, aab...): ";
 	    cin>> stringlength;
 		
-    	while(1)
-             	{
-					Genera(stringlength, "");
-					stringlength++;
-	         	}
+    	   while(1)
+            {
+	       Genera(stringlength, "");
+	       stringlength++;
+	    }
     	
     } else {
 		
-       cout<<"\n\nHai inserito un valore errato il programma verrà arrestato\n";
+           cout<<"\n\nHai inserito un valore errato il programma verrà arrestato\n";
 	   system("pause");
 		
-	}
+	   }
 
 }
 
@@ -103,7 +103,7 @@ int main()
 	    cerr << "\n\t\t\t Wordlist Generator \n\n"; 
 	    cout<<"Questo programma genera/amplia  una wordlist nella cartella corrente in cui si trova.\nIl file creato/ampliato e' wordlist.txt.\n";
 	    cout<<"Quando si ritiene di aver raggiunto un numero sufficiente di elementi e'\nsufficiente interrompere il programma.\n";
-		start();
+	    start();
 
 	return 0;
 }
